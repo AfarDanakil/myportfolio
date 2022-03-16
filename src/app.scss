@@ -1,28 +1,32 @@
-.app{
-    height: 100vh;
-    
-  
-    .sections{
-       width:100%;
-       height:calc(100vh - 70px);
-       background-color:white;
-       position:relative;
-       top: 70px;
-       scroll-behavior:smooth;
-       scroll-snap-type: y mandatory;
-       scrollbar-width:none;//for firefox
-       &::-webkt-scrollbar{
-           display:none;
-       }
-
-       > *{
-        background-color: lightgreen;     
-        width:100vw;
-        height:calc(100vh - 70px);
-        scroll-snap-align: start;
-        
-       }
-    }
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
+body{
+    height:1000px;
+}
+.app{
+    height: 100vh;     
+}
+
+  .blog,.contact,.intro,.projects,.resume{
+    background-color:aqua;
+   
+
+    
+   
+    padding:50px; 
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 18px;
+}
+
 
 

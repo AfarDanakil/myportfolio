@@ -1,13 +1,19 @@
 @import "../../global.scss";
- .p{
-     text-align: justify;
-     padding:50px;
-    
+
+p{
+    text-align: center;    
+   
  }
  .blogWrapper{
+    display:flex;
+     flex-direction: column;
+     align-items: center;
      padding:100px;
+     background-color: #7FFFD4
  }
- .blogBtn{
+ 
+ .blogBtn{    
+    display:flex;
     padding: .5rem;
     font-family: inherit;
     font-weight: bold;

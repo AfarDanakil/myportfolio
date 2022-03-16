@@ -1,10 +1,12 @@
-
 import "./contact.scss"
 
+
 export default function Contact() {
-  return (
-    <div className="contact" id="contact">
-     <h2>Contact Me</h2>
+  return (  
+  
+  <div className="contact" id="contact">  
+       
+    <h2>Got A Project, Get In Touch</h2>
           <div class="contact-box">
               <form>
                 <input type="text" class="input-field" placeholder="Your Name"></input>
@@ -14,8 +16,9 @@ export default function Contact() {
                 </textarea>
                 <button type="button" class="btn">Send Message</button>
               </form>
-          </div>
-    
+          </div>    
     </div>
-  )
+    
+
+  );
 }

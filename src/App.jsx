@@ -1,29 +1,34 @@
-import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
-import "./app.scss"
-import {useState} from "react";
-import Menu from "./components/menu/Menu";
+import "./app.scss";
+import Navbar from "./components/navbar/Navbar";
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+/* importing pages*/
+import Home from './pages/home';
+import ErrorPage from "./pages/errorPage/errorPage";
+
 
 
 function App() {
-  const[menuOpen,setMenuOpen]=useState(true)
-  return (
-   
-    <div className="app">   
-       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <div className="sections">
-      <Intro/>
-      <Projects/>
-      <Resume/>
-      <Blog/>
-      <Contact/>
-      </div>
-    </div>
+ 
+  return (   
+    <Router> 
+        <Navbar /> 
+        <Routes>  
+              <Route path='/' element ={<Home />} />              
+              <Route path='/about' element ={<Intro/>} />    
+              <Route path='/projects' element ={<Projects />} />    
+              <Route path='/resume' element ={<Resume />} />    
+              <Route path='/blog' element ={<Blog />} />     
+              <Route path='/contact' element ={<Contact />} />
+              <Route path='*' element ={<ErrorPage />} />
+        </Routes>    
+      </Router>
+
   );
 }
 

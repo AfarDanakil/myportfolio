@@ -1,65 +1,56 @@
-//Intro Style
+//intro Style
 
 .intro{
-    display:flex;
-    height: 100vh; 
-    padding:50px;
-}    
-
-.introLeft{
-    flex:1; 
-    display:flex;
-    align-items:center;    
-    justify-content: center;  
+   display:flex;
+   flex-direction: column;
+   align-items: center;    
 }
-  
-.introRight{
-    display: flex;
-    flex:1; 
-    
-}
-.introLeftWrapper{
-    padding:50px;
-    height: 100%;
+   
+.introTitle{          
+    min-height: 50%;
+    width: 100vw;
+    background-color: #7FFFD4;        
     display:flex;
-    flex-direction: column;    
-  
+    flex-direction: column;
+    align-items: center;   
+   
+ }  
+h2,p{
+    overflow:hidden;
+    background-color:red;
+}
+.introPar{
+    padding:15px;
+    overflow:hidden;
+    background-color:yellow;                
+}  
+h5{
+    overflow:hidden;
+    text-align: center;
+    color:fuchsia;      
 }
 .greeting{    
-    font-size: 20px;
-    font-weight: 200;     
+   font-size: 18px;   
+   padding-top:10px;
+   color:fuchsia;     
 }
 .name{
-    font-size: 60px;
-  }
-.introTitle{    
-    height: auto;
-    overflow:hidden; 
+    font-size: 30px;
+    padding:0;
+}
+ .title{   
+    font-size: 20px;
+    color:fuchsia;
+    font-weight: bold;  
+    
  }
- .titleItem{
-     padding-left:100px;
-     height: auto;
-     font-size: 20px;
-     font-weight: bold;
-     color:fuchsia;
-     display: flex;
-     align-items: center;
- }
-
   //intro image style
   .imgContainer{     
-    width:300px;
-    height: 300px;
-    background-color: white;
+    width:auto;
     overflow: hidden;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    float:right;
+        
 }
 img{
     width: 100%;
 }
-
-
-
