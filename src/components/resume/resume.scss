@@ -1,16 +1,6 @@
 @import "../../global.scss";
+//resume style
 
-p{
-    overflow: hidden; 
-   
- }
-.resumeWrapper{
-    display:flex;
-    flex-direction: column;
-    align-items: center;  
-    background-color: #7FFFD4;
-    overflow: hidden; 
-}
 .resumeImgContainer{   
     max-width: 200px; 
     overflow: hidden;
@@ -18,10 +8,10 @@ p{
 }
 .resumepar{
   
-    padding:15px;
     text-align: center;
     overflow: hidden; 
 }
+
 
 .resumeImg{
     

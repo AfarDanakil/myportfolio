@@ -1,0 +1,58 @@
+/*Style Portfolio for home/portfolio page */
+.body{
+    background-color: #84e0b2;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+    background:linear-gradient(120deg,#eff1f0,#84e0b2);
+    overflow: hidden;  
+}
+.portfolio{
+    display:flex;     
+}   
+  
+.portfolio p{
+    text-align: center;
+} 
+
+ h2{
+     overflow:hidden;
+     background-color:aquamarine
+ }
+   
+ h5{
+     overflow:hidden;
+     text-align: center;
+     font-size: 20px;
+     color:fuchsia;
+     font-weight: bold;
+ }
+ .greeting{ 
+    text-align: center;
+    font-size: 18px;   
+    padding-top:10px;  
+    color:fuchsia;      
+ }
+ .name{
+     font-size: 30px;
+     padding:0;
+ }
+
+  .name, .title{
+     text-align: center;
+  }
+   //portoflio image style
+   .imgContainer{     
+     width:auto;
+     overflow: hidden;
+    
+         
+ }
+ img{
+     width: 100%;
+ }
+ .portImg{
+    clip-path: circle(50%);
+}

@@ -1,15 +1,13 @@
 import React from 'react';
-import {Nav, NavLink, Bars, NavMenu} from './Navbarelements';
-
-
-
+import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './Navbarelements';
 
 const Navbar = () => {
   return (
     <>
     <Nav>
         <NavLink to ="/">
-                <h1>Portfolio</h1>
+                <h1 className="myName">Zenash Kassa</h1>
+                
         </NavLink>
         <Bars />
         <NavMenu>

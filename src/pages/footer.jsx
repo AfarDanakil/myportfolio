@@ -1,10 +1,12 @@
+
 import React from 'react'
 
-const Projects = () => {
+
+const Footer = () => {
   
   return (
     <div></div>
   )
 }
 
-export default Projects
+export default Footer

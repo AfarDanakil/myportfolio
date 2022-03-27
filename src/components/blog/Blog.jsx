@@ -2,13 +2,13 @@ import "./blog.scss"
 
 export default function Blog() {
   return (
-    <div className="blog" id="blog">
-    <h2>My blog</h2>
-            <div className="blogWrapper">
+    <div class="flex-container"className="blog" id="blog">
+    <h2>Blog</h2>
+    <h6>Check out my posts</h6>
+            <div className="wrapper">
                   <div className="par">
-                      <p>Check out my posts</p>
-                      <p>I share tech news and technology resources</p> 
-                      <p>for web developers, web designers, and digital marketers</p>
+                      <p>I share technology news and resources for digital marketers <p></p>web designers and
+                      web developers </p>
                   </div>
                   <div className="blogLink">
                       <a href="https://webdevelperdotblog.wordpress.com/">   

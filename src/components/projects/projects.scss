@@ -8,11 +8,12 @@
     gap:30px; 
     overflow: hidden;   
 }
-h2{
+h2,h4,h6{
     color:$mainColor;
     text-align: center;
-    padding-bottom:50px; 
+    padding-bottom:0px; 
 }
+
 .cardImage{
        width:100%;
 }

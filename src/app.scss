@@ -1,32 +1,65 @@
-* {
+@import "./global.scss";
+
+*{
     box-sizing: border-box;
     padding:0;
     margin:0;
 }
+html{height:100%;}
+
 body{
-    height:1000px;
+   min-height: 100%;
+   line-height: 1.5;
+   font-family: 'Poppins', sans-serif;   
 }
 .app{
-    height: 100vh;     
+    min-height:100%;   
 }
 
-  .blog,.contact,.intro,.projects,.resume{
-    background-color:aqua;
-   
-
-    
-   
-    padding:50px; 
+.portfolio,.blog,.contact,.intro,.projects,.resume,.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(120deg,#eff1f0,#edf3f0); 
+    justify-content: center;
+    min-height: 500px;  
 }
+
 ul{
     list-style-type:none;
-}
+} 
 a{
     text-decoration: none;
 }
 p{
     font-size: 18px;
+    max-width:700px;
+    min-width:320px;
+}
+.par{ max-width:700px;
+    min-width:320px;
+    text-align: center
 }
 
+
+h4,h6{
+        color:$mainColor;
+        text-align: center;
+        padding-bottom:0px; 
+}
+h2{
+    height:50px; 
+    width:100vw;   
+}
+h6{
+height: 30px;
+}
+.cardTitle{
+    height:50px;
+}
+    
+img{
+    width: 100%;
+    }
 
 
