@@ -4,25 +4,22 @@ import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
 
 import "./app.scss";
-import Navbar from "./components/navbar/Navbar";
+import NavBar from "./components/navNav/NavBar";
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 /* importing pages*/
 
 import ErrorPage from "./pages/errorPage/errorPage";
 
-
 function App() {
  
-  return ( 
-   
-     
+  return (    
     
       <Router> 
-        <Navbar /> 
+        <NavBar /> 
         <Routes>  
               <Route path='/'element ={<Portfolio />} />              
               <Route path='/about' element ={<Intro/>} />    
