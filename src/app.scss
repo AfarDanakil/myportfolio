@@ -12,7 +12,8 @@
 body{   
     min-height: 100%;
     line-height: 1.5;
-    font-family:   'Poppins', Helvetica , sans-serif, Arial ;    
+    font-family:   'Poppins', Helvetica , sans-serif, Arial ;   
+   
 }
 button:hover{
 cursor:pointer;
@@ -73,6 +74,7 @@ a{
     flex-direction: column;
     background:linear-gradient(120deg,#eff1f0,#edf3f0); 
     justify-content: center;
+    height: 100vh;
    
 }
 .blog,.contact,.intro,.projects, .resume{
