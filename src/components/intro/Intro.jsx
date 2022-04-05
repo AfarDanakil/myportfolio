@@ -7,11 +7,11 @@ export default function Intro() {
      <h2> About Me</h2>   
      <div className="wrapper">
            <div className='imgContainer'>
-            <img src="assets/Me.jpg" alt="Me"   className="introImg"></img>
+            <img className="introImg" src="assets/Me.JPG" alt="Intro"></img>
             </div>                         
            
             <div className="introPar">
-            <p> My name is Zenash Kassa. I am a beginner Full-stock web developer with an eye for design.
+            <p> My name is Zenash Kassa. I am Full-stock web developer with an eye for design.
             I have a passion for learning new technologies.</p>
             <p> I am looking for new avenues to share my skills and grow in the process.
             Take a look through my portfolio and see what skills I have to offer and some of the work I have 

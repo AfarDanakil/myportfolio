@@ -11,10 +11,10 @@ export default function Portfolio() {
                   
                   <h5>Web Developer</h5>
                   <h5>UI/UX Designer</h5> 
-                  <p>Occassional Content Creator</p>  
+                  <h5>Content Creator</h5>  
                           
                   <p>I take an interest in building responsive and modern websites<p></p>Look at some of my Projects including this Portfolio website built using Reactjs</p>
-                  <p>Read my Blog</p><p>Follow me on Linkedin and Github</p> 
+                  <p>Read my<span>Blog</span></p><p>Follow me on <span>Linkedin</span> and <span>Github</span></p> 
                  
       </div>
                 

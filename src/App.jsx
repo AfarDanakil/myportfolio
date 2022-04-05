@@ -7,12 +7,12 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 import "./app.scss";
-import NavBar from "./components/navNav/NavBar";
+import NavBar from "./components/navbar/Navbar";
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 /* importing pages*/
 
-import ErrorPage from "./pages/errorPage/errorPage";
+
 
 function App() {
  
@@ -26,14 +26,10 @@ function App() {
               <Route path='/projects' element ={<Projects />} />    
               <Route path='/resume' element ={<Resume />} />    
               <Route path='/blog' element ={<Blog />} />     
-              <Route path='/contact' element ={<Contact />} />
-              <Route path='*' element ={<ErrorPage />} />
+              <Route path='/contact' element ={<Contact />} />             
         </Routes>  
         <Footer />  
       </Router>
-    
-
-
   );
 }
 

@@ -8,7 +8,7 @@ export default function Contact() {
         <h2>Get In Touch</h2>
        
        
-    
+    <div className="contactBox">
              <form  class="row g-3" action="https://formsubmit.co/1b1a03fdd32f9a7874f6cac4106a0956" method="POST">
                  <div class="col-md-6">
                     <label for="firstName" class="form-label">First Name</label>
@@ -35,7 +35,7 @@ export default function Contact() {
                   </div>             
              </form>
              
-             
+         </div>    
             
         
       </div>

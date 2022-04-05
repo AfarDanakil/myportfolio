@@ -1,16 +1,16 @@
 //intro Style
 
-.wrapper{
-  width:100vw;
-}
+
 .introPar{
     padding:15px;
-    text-align: center;
+    text-align: justify;
     overflow: hidden;                    
 }  
   //intro image style
 
 .introImg{
+  max-width: 100%;
+  display: block;
     
-clip-path: circle(50%);
+clip-path: circle(45%);
 }
